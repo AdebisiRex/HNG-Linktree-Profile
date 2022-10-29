@@ -7,7 +7,7 @@ const App = () => {
       <div className="whole">
         <div className="view">
           <img alt="" src={face} width={200} id="profile_img" />{" "}
-          <p id="twitter">@rex_rachid</p>
+          <p id="twitter">twitter: @rex_rachid</p>
           <p id="slack">AdebisiRex</p>
           <hr />
           <div className="anchor">
@@ -24,7 +24,7 @@ const App = () => {
               >
                 BuyPython
               </a>
-              <div>
+              <div className="subtext">
                 This is a the easiest approach you'll find to learning Python
                 Programing on the market
               </div>
@@ -33,7 +33,7 @@ const App = () => {
               <a href="https://background.zuri.team/" id="pitch">
                 Pitch
               </a>
-              <div>
+              <div className="subtext">
                 {" "}
                 We offer an exclusive clearance to all our verified coders who
                 have passed through extensive check-ups by our dexterous team,
@@ -44,7 +44,7 @@ const App = () => {
               <a href="https://books.zuri.team/design-rules" id="bood_design">
                 Zuri Design
               </a>
-              <div>
+              <div className="subtext">
                 Zuri is a team of verified proffesionals and we have this
                 perfectly curate book for learning designs to ease your path
               </div>
