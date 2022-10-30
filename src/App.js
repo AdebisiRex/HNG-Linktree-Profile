@@ -18,36 +18,40 @@ const App = () => {
               Books
             </a>
             <div>
-              <a
+              <a title="This is a the easiest approach you'll find to learning Python
+                Programing on the market"
                 href="https://books.zuri.team/python-for-beginners?ref_id=AdebisiRex"
                 id="btn_zuri"
               >
                 BuyPython
               </a>
-              <div className="subtext">
+              {/* <div className="subtext">
                 This is a the easiest approach you'll find to learning Python
                 Programing on the market
-              </div>
+              </div> */}
             </div>
             <div>
-              <a href="https://background.zuri.team/" id="pitch">
+              <a title="We offer an exclusive clearance to all our verified coders who
+                have passed through extensive check-ups by our dexterous team,
+                get yours?" href="https://background.zuri.team/" id="pitch">
                 Pitch
               </a>
-              <div className="subtext">
+              {/* <div className="subtext">
                 {" "}
                 We offer an exclusive clearance to all our verified coders who
                 have passed through extensive check-ups by our dexterous team,
                 get yours?{" "}
-              </div>
+              </div> */}
             </div>
             <div>
-              <a href="https://books.zuri.team/design-rules" id="bood_design">
+              <a title="Zuri is a team of verified proffesionals and we have this
+                perfectly curate book for learning designs to ease your path" href="https://books.zuri.team/design-rules" id="bood_design">
                 Zuri Design
               </a>
-              <div className="subtext">
+              {/* <div className="subtext">
                 Zuri is a team of verified proffesionals and we have this
                 perfectly curate book for learning designs to ease your path
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
