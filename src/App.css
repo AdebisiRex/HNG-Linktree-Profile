@@ -1,23 +1,15 @@
 a{
   display: block ;
 }
-.whole{
-  height: 100vh;
-  padding: 50px 0px;
-  background: linear-gradient(-150deg,white,#254f1a);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
+
 .view{
   /* position: relative; */
   height:calc(80%);
-  width: 300px;
+  
   border: 2px solid white ;
   padding: 20px;
   border-radius: 20px;
-  background-color: #254f1a;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +29,7 @@ a{
 }
 #twitter{
   font-weight: bold;
-  color: white;
+  
 }
 div>a{
   padding: 10px 50px;
@@ -72,7 +64,13 @@ div>a{
   /* background-color: aliceblue; */
 
 }
+section{
+  display: flex;
 
+}
+section>a{
+  margin: 0px 10px;
+}
 @media screen and (max-width:750px ) {
   .whole{
     height: auto;
