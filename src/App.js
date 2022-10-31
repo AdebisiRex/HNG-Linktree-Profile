@@ -3,6 +3,9 @@ import "./App.css";
 import face from "./resources/face-card.png";
 import slack from "./resources/image.png"
 import github from "./resources/github.png"
+import vector from "./resources/Vector.png"
+import ing from "./resources/I4G.png"
+import footer from "./resources/Footer text.png"
 const App = () => {
   return (
     <>
@@ -63,10 +66,14 @@ const App = () => {
             <a href="https://github.com/AdebisiRex/HNG-Linktree-Profile.git"><img src={github} alt="" width={35} /></a>
           </section>
 
-          <footer>
-            
-          </footer>
         </div>
+          <footer>
+            <img src={vector} alt="" />
+            <img src={footer} alt="" />
+            <img src={ing} alt="" />
+
+         
+          </footer>
       </div>
     </>
   );
