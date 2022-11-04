@@ -54,4 +54,11 @@ section>img, footer>img{
   margin: 0px 10px;
 }
 
+/* Contact */
+.contact{
+  display: grid ;
+  place-items: center;
+  /* padding: 5% 0%; */
+}
+
 
